@@ -28,9 +28,9 @@ Below is the schema visualization for the data models used in this project:
 [Transformation code](./src/main/java/salesanalysis/DataBatchJob.java) does the following -
 - **Data Ingestion**: Data is read from CSV files using Flink's DataSet API, mapping rows to POJOs defined for order items and products.
 - **Data Joining**: Datasets are joined on `productId` to combine related data from separate files, using Flink's join operation.
-- **Data Aggregation**: Aggregations are performed to calculate total sales per category using map functions to transform data and reduce functions to aggregate.
+- **Data Aggregation**: Aggregations are performed to calculate total sales per category using map functions to transform data and reduce functions to aggregate. The results are structured using the `CategorySalesDTO` (Data Transfer Object).
 - **Sorting**: The aggregated data is sorted by total sales in descending order to prioritize higher sales categories.
-- **Custom Output Formats**: A custom output format is implemented to write the aggregated data back to the system in a structured CSV format.
+- **Custom Output Formats**: A custom output format is implemented to write the aggregated data back to the system in a structured CSV format. This output format leverages the `CategorySalesDTO` to ensure data consistency and clarity.
 
 **Output**: 
 - The aggregated results are written to an [output CSV file](./Output/output.csv) detailing total sales per category.
