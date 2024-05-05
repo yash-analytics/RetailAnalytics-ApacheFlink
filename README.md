@@ -15,15 +15,14 @@
 **Objective/Goal**:
 - To demonstrate the capabilities of Apache Flink in processing and analyzing sales data efficiently, showcasing complex data transformations and outputs in the retail domain.
 
-### Database Schema
+## Data Source, Transformation & Output
+
+**Database Schema**:
 Below is the schema visualization for the data models used in this project:
 ![Schema](./Project%20Screenshots/1.%20Schema.png)
 
 **Data Sources**:
 - Sales and product data are loaded from CSV files located in the [Datasets directory](./Datasets/).
-
-**Output**: 
-- The aggregated results are written to an [output CSV file](./Output/output.csv) detailing total sales per category.
 
 **Transformation Steps**:
 [Transformation code](./src/main/java/salesanalysis/DataBatchJob.java) does the following -
@@ -32,6 +31,9 @@ Below is the schema visualization for the data models used in this project:
 - **Data Aggregation**: Aggregations are performed to calculate total sales per category using map functions to transform data and reduce functions to aggregate.
 - **Sorting**: The aggregated data is sorted by total sales in descending order to prioritize higher sales categories.
 - **Custom Output Formats**: A custom output format is implemented to write the aggregated data back to the system in a structured CSV format.
+
+**Output**: 
+- The aggregated results are written to an [output CSV file](./Output/output.csv) detailing total sales per category.
 
 ### Deploying the Flink Job
 Here is a screenshot showing how the Flink job is submitted using a JAR file:
