@@ -2,6 +2,9 @@
 
 ## Project Description
 
+**Objective/Goal**:
+- To use Apache Flink in processing and analyzing sales data efficiently, showcasing complex data transformations and outputs in the retail domain.
+
 **Sector**:
 - Retail and E-commerce
 
@@ -11,9 +14,6 @@
 - **Maven**: Employed for dependency management and to automate the building of the project.
 - **Docker**: Used to containerize the Flink environment, ensuring consistent execution across different setups.
 - **Lombok**: Reduces boilerplate code in Java, making the codebase cleaner and easier to maintain.
-
-**Objective/Goal**:
-- To demonstrate the capabilities of Apache Flink in processing and analyzing sales data efficiently, showcasing complex data transformations and outputs in the retail domain.
 
 ## Data Source, Transformation & Output
 
