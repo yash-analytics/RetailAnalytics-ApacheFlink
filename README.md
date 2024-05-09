@@ -8,18 +8,18 @@
 **Technologies Used**:
 - **Apache Flink**: Utilized for its powerful stream and batch processing capabilities, enabling complex data transformations and analytics workflows.
 - **Java**: The primary programming language used to implement Flink jobs.
+- **Lombok**: Reduces boilerplate code in Java, making the codebase cleaner and easier to maintain.
 - **Maven**: Employed for dependency management and to automate the building of the project.
 - **Docker**: Used to containerize the Flink environment, ensuring consistent execution across different setups.
-- **Lombok**: Reduces boilerplate code in Java, making the codebase cleaner and easier to maintain.
 
 **Objective/Goal**:
 - To demonstrate the capabilities of Apache Flink in processing and analyzing sales data efficiently, showcasing complex data transformations and outputs in the retail domain.
 
 ## Data Source, Transformation & Output
 
-**Database Schema**:
-Below is the schema visualization for the data models used in this project:
-![Schema](./Project%20Screenshots/1.%20Schema.png)
+**Architecture Overview**:
+Below is the architecture for the data models used in this project:
+![Architecture](./Architecture/Arch%20-%20RetailAnalytics-ApacheFlink.png)
 
 **Data Sources**:
 - Sales and product data are loaded from CSV files located in the [Datasets directory](./Datasets/).
@@ -37,11 +37,11 @@ Below is the schema visualization for the data models used in this project:
 
 ### Deploying the Flink Job
 Here is a screenshot showing how the Flink job is submitted using a JAR file:
-![Submitting .jar](./Project%20Screenshots/2.%20Submitting%20.jar%20to%20Flink.png)
+![Submitting .jar](./Project%20Screenshots/1.%20Submitting%20.jar%20to%20Flink.png)
 
 ### Flink Job Dashboard
 This image provides an overview of the Flink job dashboard where job metrics and statuses can be monitored:
-![Flink Job Overview](./Project%20Screenshots/3.%20Flink%20Job%20Overview.png)
+![Flink Job Overview](./Project%20Screenshots/2.%20Flink%20Job%20Overview.png)
 
 ## Results
 
