@@ -18,7 +18,7 @@
 ## Data Source, Transformation & Output
 
 **Architecture Overview**:
-Below is the architecture for the data models used in this project:
+Below is the architecture used in this project:
 ![Architecture](./Architecture/Arch%20-%20RetailAnalytics-ApacheFlink.png)
 
 **Data Sources**:
