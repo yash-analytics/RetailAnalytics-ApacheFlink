@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T05:50:29.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="-T8NbvhMXUJbfumiGwXA" version="24.4.7" type="device">
+<mxfile host="app.diagrams.net" modified="2024-05-24T06:00:12.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="F2g22zjPqaSMrGvLfaWY" version="24.4.7" type="device">
   <diagram id="cdb5e136-1861-7ef1-5e76-c57f7e18aa8d" name="ERD Data Structure - Habit Tracker App">
-    <mxGraphModel dx="1313" dy="653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="g955npDIXCGvVR-R7ZpQ-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="g955npDIXCGvVR-R7ZpQ-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CCCCCC;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="70" y="27" width="975" height="583" as="geometry" />
         </mxCell>
         <mxCell id="g955npDIXCGvVR-R7ZpQ-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#003f5c;strokeWidth=1.5;" parent="1" vertex="1">
