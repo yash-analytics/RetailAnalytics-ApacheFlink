@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T06:05:36.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qgC6Q_R83gImwhcMlfg4" version="24.4.7" type="device">
+<mxfile host="app.diagrams.net" modified="2024-05-24T20:18:23.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="7kfzdGpm400HTfptpnet" version="24.4.8" type="device">
   <diagram id="cdb5e136-1861-7ef1-5e76-c57f7e18aa8d" name="ERD Data Structure - Habit Tracker App">
-    <mxGraphModel dx="1400" dy="696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="650" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="650" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,7 +24,7 @@
             <mxPoint x="667" y="282" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="szWTe3xvPYMTkFOnLiuH-2" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="szWTe3xvPYMTkFOnLiuH-2" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="40" y="5" width="1050.01" height="637" as="geometry" />
         </mxCell>
         <mxCell id="g955npDIXCGvVR-R7ZpQ-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E6E6E6;fontColor=#333333;" parent="szWTe3xvPYMTkFOnLiuH-2" vertex="1">
@@ -171,19 +171,19 @@
         <mxCell id="g955npDIXCGvVR-R7ZpQ-54" value="Lombok" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;container=0;fontStyle=0;strokeColor=#003f5c;" parent="szWTe3xvPYMTkFOnLiuH-2" vertex="1">
           <mxGeometry x="459.9823042906568" y="382.7186963979417" width="88.22358974358974" height="27.873070325900514" as="geometry" />
         </mxCell>
-        <mxCell id="g955npDIXCGvVR-R7ZpQ-60" value="" style="endArrow=classic;html=1;rounded=0;endSize=1;startSize=1;strokeWidth=1.5;strokeColor=#000000;" parent="szWTe3xvPYMTkFOnLiuH-2" edge="1">
+        <mxCell id="g955npDIXCGvVR-R7ZpQ-60" value="" style="endArrow=classic;html=1;rounded=0;endSize=3;startSize=1;strokeWidth=1.5;strokeColor=#000000;" parent="szWTe3xvPYMTkFOnLiuH-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="211.44999659834914" y="388.07890222984565" as="sourcePoint" />
             <mxPoint x="276.0038427521953" y="344.1252144082332" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g955npDIXCGvVR-R7ZpQ-61" value="" style="endArrow=classic;html=1;rounded=0;endSize=1;startSize=1;strokeWidth=1.5;strokeColor=#000000;" parent="szWTe3xvPYMTkFOnLiuH-2" edge="1">
+        <mxCell id="g955npDIXCGvVR-R7ZpQ-61" value="" style="endArrow=classic;html=1;rounded=0;endSize=3;startSize=1;strokeWidth=1.5;strokeColor=#000000;" parent="szWTe3xvPYMTkFOnLiuH-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210.3740991624517" y="232.032590051458" as="sourcePoint" />
             <mxPoint x="272.776150444503" y="283.0188679245283" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g955npDIXCGvVR-R7ZpQ-62" value="" style="endArrow=classic;html=1;rounded=0;endSize=1;startSize=1;strokeWidth=1.5;strokeColor=#000000;" parent="szWTe3xvPYMTkFOnLiuH-2" edge="1">
+        <mxCell id="g955npDIXCGvVR-R7ZpQ-62" value="" style="endArrow=classic;html=1;rounded=0;endSize=3;startSize=1;strokeWidth=1.5;strokeColor=#000000;" parent="szWTe3xvPYMTkFOnLiuH-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="766.6130735214261" y="310.89193825042884" as="sourcePoint" />
             <mxPoint x="819.3320478804004" y="310.89193825042884" as="targetPoint" />
